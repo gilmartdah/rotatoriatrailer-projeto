@@ -1,0 +1,23 @@
+.t1{
+    
+    font-size: 30px;
+    background-color:grey;
+    height: 190px;
+    margin-left: -20px;
+    
+}
+
+.t4{
+    color: white;
+    margin-left: 430px;
+}
+
+nav li a{
+
+display: inline-block;
+    }
+
+nav {
+    border-bottom: 4px solid rgb(0, 238, 255);
+  }
+  

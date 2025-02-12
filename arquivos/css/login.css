@@ -1,0 +1,23 @@
+.titulo1{
+    margin-left: 130px;
+    color: wheat;
+    background-color: brown;
+    width: 320px;
+    
+}
+
+.form-login{
+    margin-left: 140px;
+}
+
+input{
+    display: block;
+}
+
+.btn-login{
+  background-color: rgb(0, 119, 255);  
+}
+
+.checkbox-entrada{
+    display: flex;
+}

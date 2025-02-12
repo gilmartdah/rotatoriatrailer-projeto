@@ -1,0 +1,26 @@
+label{
+    color: rgb(0, 0, 0);
+}
+
+.persoform{
+    margin-left: 340px;
+    background-color: rgb(243, 0, 0);
+    width: 230px;
+    padding: 0;
+    margin-top: 30px;
+}
+
+input{
+    display: flow-root;
+}
+
+.banner1{
+background-color: blue;
+background-attachment: fixed;
+height: 90px;
+}
+
+#text11{
+    color: rgb(253, 165, 0);
+    box-shadow: 4px 5px rgb(255, 255, 255);
+}

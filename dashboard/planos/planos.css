@@ -1,0 +1,35 @@
+.planos{
+
+    
+background-color: yellow;    
+margin-left: 130px;
+max-width: 140px;
+
+min-height: 40px;
+
+}
+
+button{
+    background-color: green;
+    display: flex;
+}
+
+button:hover {
+    background-color: teal;
+     font-size: xx-large;
+
+}
+
+
+h2:hover{
+    font-size: 100px;
+}
+
+h3:hover{
+    font-size: 30px;
+}
+
+label:hover{
+    color: #209cee;
+    font-size: 40px;
+}

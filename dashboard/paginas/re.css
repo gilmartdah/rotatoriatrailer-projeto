@@ -1,0 +1,12 @@
+.card {
+
+    border: 1px solid;
+    color: rgb(255, 94, 0);
+    display: flow-root;
+    
+    }
+    
+    label{
+        color: red;
+    }
+

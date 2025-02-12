@@ -1,0 +1,23 @@
+body{
+    display: block;
+}
+
+.banner01{
+    background-color: #209cee;
+}
+
+label{
+    color: turquoise;
+}
+
+.menu01 li a{
+    display: inline-block;
+    margin-right: 5px;
+
+}
+
+
+#email_adm{
+    color: blueviolet;
+}
+
