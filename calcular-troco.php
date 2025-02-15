@@ -1,3 +1,32 @@
+<?php
+
+$troco = 0;
+$valoritem = 1200;
+
+echo "<label name='valoritem'>Preco item: " . number_format($valoritem , '2', ',','.') . "</label>";
+
+if (!empty($_POST['resultado'])) {
+
+$resultado = $_POST['resultado'];
+
+
+
+ $troco = $valoritem - $resultado;
+
+    echo "<br>";
+    echo "<label  for='final'  name='final'>Valor final R$ "  . number_format($troco, 2, ',', '.') .  "</label>";
+
+
+}else{
+}
+?>
+
+
+
+
+
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -5,18 +34,13 @@
 </head>
 <body>
 
-<?php
-if ("POST") {
-    $total = 21.00;
-    $valor_cliente = $_POST['valor_cliente'];
-    $troco = $valor_cliente - $total;
-    echo "<p>Total: R$ " . number_format($total, 2, ',', '.') . "</p>";
-    echo "<p>Troco: R$ " . number_format($troco, 2, ',', '.') . "</p>";
-}
-?>
 
-<form method="post" action=''>
-    <input type="number" step="0.01" name="valor_cliente" placeholder="Digite o valor que o cliente deu" required>
+
+<form method="post" action="">
+
+    <label for="">Digite o valor que o cliente deu:</label>
+    <input type="number" step="0.01" name="resultado" placeholder="Digite o valor que o cliente deu" required>
+    
     <button type="submit">Calcular Troco</button>
 </form>
 
